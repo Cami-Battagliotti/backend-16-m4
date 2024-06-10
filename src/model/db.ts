@@ -27,8 +27,10 @@ class Db {
     }
 }
 
+
+// Desestructuro la clase Db (es un objeto), creando una variable que se llama readFile y como valor tiene ese metodo de la clase. Asi puedo ejecutar ese metodo readfile directamente sin tener que llamar a la clase.
 const { readFile, writeFile } = Db
 
 
-
+// Exporto los metodos estaticos de la clase Db
 export { readFile, writeFile }
